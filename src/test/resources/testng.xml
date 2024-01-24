@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Open Cart Parallel Suite" verbose="2" parallel="classes" thread-count="6">
-    <test name="Login Page Tests">
+<suite name="Open Cart Parallel Suite" verbose="2" parallel="classes" thread-count="24">
+    <test name="Open Cart Pages Tests">
         <classes>
             <class name="runner.TestRunner"/>
         </classes>

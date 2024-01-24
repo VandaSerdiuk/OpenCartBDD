@@ -18,10 +18,10 @@ Feature: Login Functionality for OpenCart E-commerce Website
     When I click on the login button
     Then I should see an error message indicating "<error_message>"
     Examples:
-      | username          | password        | error_message                                          |
-      | invalid@email.com | invalidPassword | Warning: No match for E-Mail Address and /or Password. |
-      | abccc             | validPassword   | Warning: No match for E-Mail Address and /or Password. |
-      | valid@email.com   | abccc           | Warning: No match for E-Mail Address and /or Password. |
+      | username               | password   | error_message                                          |
+      | xyzabc123@gmail.com    | Xyzabc123! | Warning: No match for E-Mail Address and /or Password. |
+      | xyzabc123@gmail.com    | Test@123   | Warning: No match for E-Mail Address and /or Password. |
+      | qatestertest@gmail.com | Xyzabc123! | Warning: No match for E-Mail Address and /or Password. |
 
   Scenario: Navigating to the forgotten password page
     When I click on the "Forgotten Password" link

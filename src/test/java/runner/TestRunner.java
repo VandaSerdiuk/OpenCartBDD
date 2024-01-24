@@ -9,7 +9,7 @@ import org.testng.annotations.DataProvider;
         glue = {"org.opencart.stepdefs"},
         plugin = {"pretty" , "html:target/cucumber-reports" , "json:target/cucumber.json"},
         monochrome = true,
-        publish = true)
+        publish=true)
 
 
 public class TestRunner extends AbstractTestNGCucumberTests {

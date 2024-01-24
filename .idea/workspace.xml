@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b01d880f-567c-4a51-9632-d6c74f96e9a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opencart/pages/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/opencart/pages/ShopCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/opencart/stepdefs/RegisterStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/opencart/stepdefs/ShopCartStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/register.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/shopcart.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/opencart/pages/Components.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/opencart/pages/Components.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencart/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/opencart/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/opencart/stepdefs/ComponentsStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/opencart/stepdefs/ComponentsStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/opencart/stepdefs/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/opencart/stepdefs/LoginPageStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
@@ -57,15 +61,15 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: loginpage">
-    <configuration name="Feature: loginpage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: compo">
+    <configuration name="Feature: compo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/loginpage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/compo.feature" />
       <option name="GLUE" value="org.opencart.stepdefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SuperNewCuc" />
+      <module name="OpenCartBDD" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: loginpage" />
+      <option name="SUGGESTED_NAME" value="Feature: compo" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -77,15 +81,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Successful login with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: register" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/loginpage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/register.feature" />
       <option name="GLUE" value="org.opencart.stepdefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SuperNewCuc" />
-      <option name="NAME_FILTER" value="^Successful login with valid credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful login with valid credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Successful login with valid credentials" />
+      <module name="OpenCartBDD" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: register" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,15 +100,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Unsuccessful login with invalid or empty credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: shopcart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/loginpage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/shopcart.feature" />
       <option name="GLUE" value="org.opencart.stepdefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SuperNewCuc" />
-      <option name="NAME_FILTER" value="^Unsuccessful login with invalid or empty credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Unsuccessful login with invalid or empty credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Unsuccessful login with invalid or empty credentials" />
+      <module name="OpenCartBDD" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: shopcart" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -117,29 +119,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SuperNewCuc" />
+    <configuration name="Scenario: Error when trying to register with an incorrect password confirmation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/register.feature" />
+      <option name="GLUE" value="org.opencart.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="OpenCartBDD" />
+      <option name="NAME_FILTER" value="^Error when trying to register with an incorrect password confirmation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Error when trying to register with an incorrect password confirmation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Error when trying to register with an incorrect password confirmation" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runner.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Testing the Components column Product all components" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/compo.feature" />
+      <option name="GLUE" value="org.opencart.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="OpenCartBDD" />
+      <option name="NAME_FILTER" value="^Testing the Components column Product all components$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Testing the Components column Product all components$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Testing the Components column Product all components" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: loginpage" />
-        <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Unsuccessful login with invalid or empty credentials" />
-        <item itemvalue="Cucumber Java.Scenario: Successful login with valid credentials" />
+        <item itemvalue="Cucumber Java.Feature: shopcart" />
+        <item itemvalue="Cucumber Java.Feature: compo" />
+        <item itemvalue="Cucumber Java.Feature: register" />
+        <item itemvalue="Cucumber Java.Scenario: Error when trying to register with an incorrect password confirmation" />
+        <item itemvalue="Cucumber Java.Scenario: Testing the Components column Product all components" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +178,18 @@
       <option name="presentableId" value="Default" />
       <updated>1701890936122</updated>
     </task>
+    <task id="LOCAL-00001" summary="Пример BDD">
+      <created>1703722237048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703722237048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Пример BDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пример BDD" />
   </component>
 </project>
